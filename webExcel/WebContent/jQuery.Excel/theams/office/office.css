@@ -1,0 +1,25 @@
+#table{
+	text-align: center;
+}
+#table table{
+	font-size:16px;
+	color:black;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+#table table tr:nth-of-type(1){
+	background: #eee;
+}
+#table table tr td:nth-of-type(1){
+	background: #eee;
+}
+#table table td{
+	width:100px;height:30px;
+	text-align:center;
+	border:1px solid black;
+}
+
+/*toggle class*/
+.bgcolor{
+	background: gray;
+}
